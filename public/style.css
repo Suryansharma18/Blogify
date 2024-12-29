@@ -1,0 +1,118 @@
+h1{
+    color: maroon;
+}
+.post{
+    background-color: rgb(48, 216, 160);
+}
+
+.user{
+    font-style: italic;
+}
+
+.content{
+    color: rgb(11, 11, 9);
+}
+
+
+/* General Styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2,h3 {
+    text-align: center;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+/* Navbar and Links */
+a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #0073e6;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 5px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+a:hover {
+    background-color: #005bb5;
+}
+
+/* Posts Container */
+.posts-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.post {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.post:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.post h3.user {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.post h4.content {
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Buttons */
+button {
+    padding: 10px 15px;
+    background-color: #e63946;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #b82436;
+}
+
+/* Create New Post Button */
+.create-post-btn {
+    display: block;
+    width: max-content;
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.create-post-btn:hover {
+    background-color: #218838;
+}
